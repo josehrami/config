@@ -8,7 +8,8 @@ https://github.com/neovim/neovim/wiki/Installing-Neovim
 `source ~/.vimrc`
 
 ### install plugins 
-`cd ~/.vim/bundle && \
+```
+cd ~/.vim/bundle && \
 git clone https://github.com/iamcco/markdown-preview.nvim.git && \
 git clone https://github.com/vim-airline/vim-airline.git && \
 git clone https://github.com/majutsushi/tagbar.git && \
@@ -22,4 +23,5 @@ git clone https://github.com/prettier/vim-prettier && \
 git clone https://github.com/fatih/vim-go.git && \
 git clone https://github.com/scrooloose/nerdtree.git && \
 git clone https://github.com/mileszs/ack.vim.git && \
-git clone https://github.com/easymotion/vim-easymotion.git && \`
+git clone https://github.com/easymotion/vim-easymotion.git && \
+```
