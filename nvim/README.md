@@ -5,8 +5,9 @@ brew install neovim
 
 ### place .vimrc in home directory
 
-### source .vimrc
-`source ~/.vimrc`
+### install pathogen
+mkdir -p ~/.vim/autoload ~/.vim/bundle && \
+curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 
 ### install plugins 
 ```
@@ -26,3 +27,7 @@ git clone https://github.com/scrooloose/nerdtree.git && \
 git clone https://github.com/mileszs/ack.vim.git && \
 git clone https://github.com/easymotion/vim-easymotion.git && \
 ```
+
+### source .vimrc (from inside nvim)
+`nvim`
+`:source ~/.vimrc`
