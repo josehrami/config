@@ -31,3 +31,10 @@ git clone https://github.com/easymotion/vim-easymotion.git && \
 ### source .vimrc (from inside nvim)
 `nvim`
 `:source ~/.vimrc`
+
+
+### Ctags (right pane | + Shift + | )
+`brew install ctags`
+
+### GoInstallBinaries (inside nvim)
+`:GoInstallBinaries`
