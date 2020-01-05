@@ -1,6 +1,7 @@
 ### install neovim
 
 https://github.com/neovim/neovim/wiki/Installing-Neovim
+brew install neovim
 
 ### place .vimrc in home directory
 
